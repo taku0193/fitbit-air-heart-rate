@@ -9,7 +9,9 @@
     "start": "node server/server.js",
     "dev": "node --watch server/server.js",
     "test": "node --test",
-    "check": "node --check server/server.js && node --check public/app.js && node --check public/bluetooth.js"
+    "check": "node --check server/server.js && node --check public/app.js && node --check public/bluetooth.js",
+    "test:macos": "cd macos/PulseAirMenuBar && swift run PulseAirMenuBarSelfTest",
+    "build:macos": "cd macos/PulseAirMenuBar && ./build-app.sh"
   },
   "engines": {
     "node": ">=20"
