@@ -5,3 +5,6 @@ node_modules/
 coverage/
 .DS_Store
 npm-debug.log*
+macos/PulseAirMenuBar/.build/
+macos/PulseAirMenuBar/dist/
+.swiftpm/
