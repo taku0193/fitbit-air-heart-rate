@@ -1,0 +1,17 @@
+{
+  "name": "fitbit-air-heart-rate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fitbitの心拍数をWeb BluetoothとGoogle Health APIから表示する、プライバシー重視のローカルダッシュボード",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "test": "node --test",
+    "check": "node --check server/server.js && node --check public/app.js && node --check public/bluetooth.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
