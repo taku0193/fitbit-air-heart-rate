@@ -29,7 +29,7 @@ Web Bluetoothのライブ心拍数とGoogle Healthの最新値を、自動で切
 必要なのは **Node.js 20以上** だけです。
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/taku0193/fitbit-air-heart-rate.git
 cd fitbit-air-heart-rate
 cp .env.example .env
 npm start
